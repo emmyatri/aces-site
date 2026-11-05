@@ -92,7 +92,7 @@
   .section-head p { color: var(--muted); margin: 0; }
   article.feature { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 48px; align-items: center;
     padding-block: 36px; border-top: 1px solid var(--rule); }
-  article.feature:nth-of-type(even) > .text { order: 2; }
+  article.feature:nth-of-type(even) { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); }
   .feature h3 { font: 600 1.6rem/1.15 var(--display); color: var(--brand); margin: 0 0 12px; }
   .feature p { max-width: 30rem; margin: 0 0 12px; }
   .statline { font: 500 .85rem/1.5 var(--data); color: var(--muted); }
@@ -165,7 +165,7 @@
 
   @media (max-width: 860px) {
     .hero .wrap, article.feature, .diagram { grid-template-columns: minmax(0, 1fr); gap: 28px; }
-    article.feature:nth-of-type(even) > .text { order: 0; }
+    article.feature:nth-of-type(even) { grid-template-columns: minmax(0, 1fr); }
     ol.steps { grid-template-columns: minmax(0, 1fr); gap: 20px; }
     ol.steps li { padding-left: 54px; }
     ol.steps li::before { position: absolute; left: 0; top: 0; margin: 0; }
@@ -346,23 +346,23 @@
         <div class="avatar" aria-hidden="true">AO</div>
         <div><h3>Amber O’Dwyer</h3><p class="role">SecOps Insight</p><p class="status">Open to new opportunities</p></div>
         <div class="contact"><span class="email">aodwyer@students.kennesaw.edu</span>
-          <span class="icons"><a href="#https://github.com/amber-odwyer" aria-label="Amber O’Dwyer on GitHub"><svg><use href="#i-github"/></svg></a><a href="https://www.linkedin.com/in/amber-odwyer/" aria-label="Amber O’Dwyer on LinkedIn"><svg><use href="#i-linkedin"/></svg></a></span></div>
+          <span class="icons"><a href="https://github.com/amber-odwyer" aria-label="Amber O’Dwyer on GitHub"><svg><use href="#i-github"/></svg></a><a href="https://www.linkedin.com/in/amber-odwyer/" aria-label="Amber O’Dwyer on LinkedIn"><svg><use href="#i-linkedin"/></svg></a></span></div>
       </div>
       <div class="member">
         <div class="avatar" aria-hidden="true">EG</div>
-        <div><h3>Elijah Giusto</h3><p class="role">TODO: role</p><p class="status">Open to new opportunities</p></div>
+        <div><h3>Elijah Giusto</h3><p class="role">Automox Collector</p><p class="status">Open to new opportunities</p></div>
         <div class="contact"><span class="email">egiusto@students.kennesaw.edu</span>
-          <span class="icons"><a href="#https://github.com/ElijahGiusto" aria-label="Elijah Giusto on GitHub"><svg><use href="#i-github"/></svg></a><a href="https://www.linkedin.com/in/elijahgiusto/" aria-label="Elijah Giusto on LinkedIn"><svg><use href="#i-linkedin"/></svg></a></span></div>
+          <span class="icons"><a href="https://github.com/ElijahGiusto" aria-label="Elijah Giusto on GitHub"><svg><use href="#i-github"/></svg></a><a href="https://www.linkedin.com/in/elijahgiusto/" aria-label="Elijah Giusto on LinkedIn"><svg><use href="#i-linkedin"/></svg></a></span></div>
       </div>
       <div class="member">
         <div class="avatar" aria-hidden="true">HP</div>
-        <div><h3>Helena Patino Cruz</h3><p class="role">TODO: role</p><p class="status">Open to new opportunities</p></div>
+        <div><h3>Helena Patino Cruz</h3><p class="role">SecOps Collector</p><p class="status">Open to new opportunities</p></div>
         <div class="contact"><span class="email">hpatinoc@students.kennesaw.edu</span>
           <span class="icons"><a href="https://github.com/cxelenaa" aria-label="Helena Patino Cruz on GitHub"><svg><use href="#i-github"/></svg></a><a href="https://www.linkedin.com/in/helenapatinoc/" aria-label="Helena Patino Cruz on LinkedIn"><svg><use href="#i-linkedin"/></svg></a></span></div>
       </div>
       <div class="member">
         <div class="avatar" aria-hidden="true">ST</div>
-        <div><h3>Steven Thai</h3><p class="role">TODO: role</p><p class="status">Open to new opportunities</p></div>
+        <div><h3>Steven Thai</h3><p class="role">Automox Insight</p><p class="status">Open to new opportunities</p></div>
         <div class="contact"><span class="email">sthai@students.kennesaw.edu</span>
           <span class="icons"><a href="https://github.com/chaosburningstar" aria-label="Steven Thai on GitHub"><svg><use href="#i-github"/></svg></a></span></div>
       </div>
