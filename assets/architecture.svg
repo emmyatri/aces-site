@@ -60,7 +60,7 @@
 <text x="118" y="1340" font-size="42" font-weight="700" fill="#8A5F12" text-anchor="start">A person approves it</text>
 <text x="118" y="1380" font-size="31" fill="#3C3C43" text-anchor="start">Nothing is released without human review.</text>
 <text x="118" y="1420" font-size="31" fill="#3C3C43" text-anchor="start">ACeS never contacts or changes a client system.</text>
-<rect x="0" y="1476" width="1075" height="126" rx="18" fill="#FFC000" stroke="#FFC000" stroke-width="0"/>
+<rect x="0" y="1476" width="1075" height="126" rx="18" fill="#45EDF2" stroke="#45EDF2" stroke-width="0"/>
 <text x="537.5" y="1532" font-size="40" font-weight="700" fill="#1D1D1F" text-anchor="middle">Data never flows through the AI.</text>
 <text x="537.5" y="1578" font-size="31" fill="#1D1D1F" text-anchor="middle">The AI only sees findings that SQL already computed.</text>
 </svg>
