@@ -93,6 +93,10 @@
   article.feature { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 48px; align-items: center;
     padding-block: 36px; border-top: 1px solid var(--rule); }
   article.feature:nth-of-type(even) { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); }
+    /* A screenshot people need to read gets the full width, with the text above it. */
+  article.feature.wide { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  article.feature.wide > .text { order: 0; }
+  article.feature.wide .text p { max-width: 46rem; }
   .feature h3 { font: 600 1.6rem/1.15 var(--display); color: var(--brand); margin: 0 0 12px; }
   .feature p { max-width: 30rem; margin: 0 0 12px; }
   .statline { font: 500 .85rem/1.5 var(--data); color: var(--muted); }
@@ -254,7 +258,7 @@
       </figure>
     </article>
 
-    <article class="feature">
+    <article class="feature wide">
       <div class="text">
         <h3>Every AI sentence is checked</h3>
         <p>Fixed SQL rules decide what counts as a finding. The AI only explains findings that already exist, and an evidence gate checks each sentence against the data. Anything it can't support is left out of the draft.</p>
